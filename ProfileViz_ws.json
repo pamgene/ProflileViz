@@ -68,12 +68,6 @@
   },
   {
    "kind": "Link",
-   "id": "973d0425-5491-4c71-af5c-ff43613a7a02",
-   "inputId": "a98ab7c9-25ba-4840-9777-ad221188a56a-i-0",
-   "outputId": "03e5ca20-d586-4422-a18d-3492c17ab8d0-o-0"
-  },
-  {
-   "kind": "Link",
    "id": "bb50ecb9-639d-4c46-ba70-c182a8438f10",
    "inputId": "dbbdc16a-6362-4caf-86ca-91a66f8f19be-i-0",
    "outputId": "a98ab7c9-25ba-4840-9777-ad221188a56a-o-0"
@@ -98,15 +92,21 @@
   },
   {
    "kind": "Link",
-   "id": "25c61a47-4e61-4758-bbc8-4f7395f6adb5",
-   "inputId": "9dde2a3a-2377-4852-8ba9-8bed0f267cb8-i-0",
-   "outputId": "7344d5a8-ff18-4308-ba3f-b11dd9bb74f9-o-0"
+   "id": "c6666504-8f00-470b-af3b-56d8f247ba2a",
+   "inputId": "a98ab7c9-25ba-4840-9777-ad221188a56a-i-0",
+   "outputId": "78163d27-2b36-484b-ae89-223a448c7d53-o-0"
   },
   {
    "kind": "Link",
-   "id": "dbfadccf-536e-4b0c-86aa-24e003c1446d",
-   "inputId": "03e5ca20-d586-4422-a18d-3492c17ab8d0-i-0",
-   "outputId": "9dde2a3a-2377-4852-8ba9-8bed0f267cb8-o-0"
+   "id": "c7786132-05ac-4da9-a7e5-5308eba245d4",
+   "inputId": "89af90b9-17a1-41c5-a95b-e0c828cd0199-i-0",
+   "outputId": "ed07ba9b-da27-4807-81b9-ae7c565c7d50-o-0"
+  },
+  {
+   "kind": "Link",
+   "id": "eacf1369-fad2-4e5c-aff4-13de524f3f92",
+   "inputId": "78163d27-2b36-484b-ae89-223a448c7d53-i-0",
+   "outputId": "89af90b9-17a1-41c5-a95b-e0c828cd0199-o-0"
   }
  ],
  "steps": [
@@ -240,7 +240,7 @@
          "kind": "GraphicalFactor",
          "factor": {
           "kind": "Factor",
-          "name": "pviz.ds5.identity",
+          "name": "pviz.identity",
           "type": "double"
          },
          "rectangle": {
@@ -369,14 +369,14 @@
     },
     "rowTable": {
      "kind": "CrosstabTable",
-     "cellSize": 39.0,
+     "cellSize": 250.0,
      "offset": 0,
      "graphicalFactors": [
       {
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "pviz.ds5..ID",
+        "name": "pviz..ID",
         "type": "string"
        },
        "rectangle": {
@@ -401,7 +401,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "2dea9ca0-173e-46c9-86b8-590a1e658a4c"
+    "id": "fd612838-48e7-4c9f-af1c-58d007a942cc"
    },
    "parentDataStepId": ""
   },
@@ -469,7 +469,7 @@
         "factors": [
          {
           "kind": "Factor",
-          "name": "value",
+          "name": "pviz.identity",
           "type": "double"
          }
         ],
@@ -548,7 +548,7 @@
          "kind": "GraphicalFactor",
          "factor": {
           "kind": "Factor",
-          "name": "value",
+          "name": "pviz.identity",
           "type": "double"
          },
          "rectangle": {
@@ -573,21 +573,21 @@
     },
     "columnTable": {
      "kind": "CrosstabTable",
-     "cellSize": 20.666666666666668,
+     "cellSize": 42.5,
      "offset": 0,
      "graphicalFactors": [
       {
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "Wait.Time",
+        "name": "pviz..Time",
         "type": "string"
        },
        "rectangle": {
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 90.0,
+         "x": 100.0,
          "y": 30.0
         },
         "topLeft": {
@@ -601,7 +601,7 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "pviz.ds5..name",
+        "name": "pviz..name",
         "type": "string"
        },
        "rectangle": {
@@ -687,7 +687,7 @@
     },
     "rowTable": {
      "kind": "CrosstabTable",
-     "cellSize": 10.0,
+     "cellSize": 11.0,
      "offset": 0,
      "graphicalFactors": [
       {
@@ -701,8 +701,8 @@
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 130.0,
-         "y": 30.0
+         "x": 80.0,
+         "y": 0.0
         },
         "topLeft": {
          "kind": "Point",
@@ -715,14 +715,14 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "pviz.ds5..ID",
+        "name": "pviz..ID",
         "type": "string"
        },
        "rectangle": {
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 120.0,
+         "x": 179.0,
          "y": 30.0
         },
         "topLeft": {
@@ -740,7 +740,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "5692fbbf-d478-481e-aaf0-d3d4505dfa62"
+    "id": "ba3d3772-4ba8-4bee-b2d8-06c551fede03"
    },
    "parentDataStepId": ""
   },
@@ -810,7 +810,7 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 439.71207427978516,
+     "x": 440.71207427978516,
      "y": 317.5
     }
    },
@@ -910,7 +910,7 @@
          "kind": "GraphicalFactor",
          "factor": {
           "kind": "Factor",
-          "name": "pviz.ds5.identity",
+          "name": "pviz.identity",
           "type": "double"
          },
          "rectangle": {
@@ -935,14 +935,14 @@
     },
     "columnTable": {
      "kind": "CrosstabTable",
-     "cellSize": 250.0,
+     "cellSize": 42.0,
      "offset": 0,
      "graphicalFactors": [
       {
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "pviz.ds5..name",
+        "name": "pviz..name",
         "type": "string"
        },
        "rectangle": {
@@ -1039,14 +1039,14 @@
     },
     "rowTable": {
      "kind": "CrosstabTable",
-     "cellSize": 250.0,
+     "cellSize": 70.0,
      "offset": 0,
      "graphicalFactors": [
       {
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "pviz.ds5..ID",
+        "name": "pviz..ID",
         "type": "string"
        },
        "rectangle": {
@@ -1054,7 +1054,7 @@
         "extent": {
          "kind": "Point",
          "x": 80.0,
-         "y": 0.0
+         "y": 30.0
         },
         "topLeft": {
          "kind": "Point",
@@ -1071,7 +1071,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "c1b23488-64b6-433c-bccc-80caf6ec038d"
+    "id": "d9d1b7ce-9fe6-462f-8e36-42c6a2adad38"
    },
    "parentDataStepId": ""
   },
@@ -1106,7 +1106,7 @@
     "topLeft": {
      "kind": "Point",
      "x": 308.94010162353516,
-     "y": 439.5
+     "y": 441.5
     }
    },
    "state": {
@@ -1361,7 +1361,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "11535f68-df85-4d4e-a905-3cf2090b1138"
+    "id": "952c789a-12a6-4df2-9e27-daa774bd6bef"
    },
    "parentDataStepId": ""
   },
@@ -1716,7 +1716,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "dc40c428-4718-4b47-8d72-cd294e9d3fc9"
+    "id": "81e79ddc-aea4-4347-946e-11b12efff561"
    },
    "parentDataStepId": ""
   },
@@ -2026,7 +2026,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "d8cd0386-9bf7-4505-9b97-626eda85e386"
+    "id": "82c625e9-43aa-4ba4-8295-8d8c0d33feae"
    },
    "parentDataStepId": ""
   },
@@ -2402,7 +2402,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "d4f11420-69d2-412c-919e-42248d50274e"
+    "id": "4aa4be6d-96d3-4849-809b-09c4c3a1576c"
    },
    "parentDataStepId": ""
   },
@@ -2436,8 +2436,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 319.505,
-     "y": 260.5
+     "x": 297.505,
+     "y": 233.5
     }
    },
    "state": {
@@ -2617,7 +2617,7 @@
     },
     "operatorSettings": {
      "kind": "OperatorSettings",
-     "namespace": "ds5",
+     "namespace": "pviz",
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "Identity",
@@ -2637,7 +2637,38 @@
        "outputSpecs": []
       }
      },
-     "environment": [],
+     "environment": [
+      {
+       "kind": "Pair",
+       "key": "cpu",
+       "value": "0"
+      },
+      {
+       "kind": "Pair",
+       "key": "ram",
+       "value": "0"
+      },
+      {
+       "kind": "Pair",
+       "key": "cpu-shares",
+       "value": "0"
+      },
+      {
+       "kind": "Pair",
+       "key": "tercen.collect.stats",
+       "value": "false"
+      },
+      {
+       "kind": "Pair",
+       "key": "debug",
+       "value": "false"
+      },
+      {
+       "kind": "Pair",
+       "key": "preferred.run.ctx",
+       "value": ""
+      }
+     ],
      "operatorModel": {
       "kind": "OperatorModel"
      }
@@ -2676,217 +2707,9 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "0d7b78c1-b3d6-4a15-b6bc-adcfdfcb8935"
+    "id": "610c33ce-85b5-4534-b60b-24614739eaf6"
    },
    "parentDataStepId": ""
-  },
-  {
-   "kind": "WizardStep",
-   "id": "03e5ca20-d586-4422-a18d-3492c17ab8d0",
-   "groupId": "",
-   "name": "Wizard",
-   "inputs": [
-    {
-     "kind": "InputPort",
-     "id": "03e5ca20-d586-4422-a18d-3492c17ab8d0-i-0",
-     "linkType": "relation",
-     "name": "table"
-    }
-   ],
-   "outputs": [
-    {
-     "kind": "OutputPort",
-     "id": "03e5ca20-d586-4422-a18d-3492c17ab8d0-o-0",
-     "linkType": "relation",
-     "name": "table"
-    }
-   ],
-   "rectangle": {
-    "kind": "Rectangle",
-    "extent": {
-     "kind": "Point",
-     "x": 88.99000000000001,
-     "y": 55.0
-    },
-    "topLeft": {
-     "kind": "Point",
-     "x": 318.505,
-     "y": 176.5
-    }
-   },
-   "state": {
-    "kind": "StepState",
-    "taskId": "",
-    "taskState": {
-     "kind": "InitState"
-    }
-   },
-   "description": "Create a generic workflow.",
-   "model": {
-    "kind": "WizardStepModel",
-    "namespace": "pviz",
-    "description": "",
-    "appDesignType": "",
-    "factors": [
-     {
-      "kind": "MappingFactor",
-      "name": "value",
-      "type": "double",
-      "description": "Profile values",
-      "ontologyMapping": "",
-      "crosstabMapping": "",
-      "cardinality": "",
-      "factors": [
-       {
-        "kind": "Factor",
-        "name": "value",
-        "type": "double"
-       }
-      ],
-      "factorName": "value",
-      "isSingle": true,
-      "isRequired": true
-     },
-     {
-      "kind": "MappingFactor",
-      "name": "ID",
-      "type": "string",
-      "description": "Row ID (peptide ID)",
-      "ontologyMapping": "",
-      "crosstabMapping": "",
-      "cardinality": "",
-      "factors": [
-       {
-        "kind": "Factor",
-        "name": "ID",
-        "type": "string"
-       }
-      ],
-      "factorName": "ID",
-      "isSingle": false,
-      "isRequired": true
-     },
-     {
-      "kind": "MappingFactor",
-      "name": "Wait.Time",
-      "type": "string",
-      "description": "Grouping factor or covariate of interest",
-      "ontologyMapping": "",
-      "crosstabMapping": "",
-      "cardinality": "",
-      "factors": [
-       {
-        "kind": "Factor",
-        "name": "Wait.Time",
-        "type": "string"
-       }
-      ],
-      "factorName": "Grouping",
-      "isSingle": false,
-      "isRequired": true
-     },
-     {
-      "kind": "MappingFactor",
-      "name": "Sample.name",
-      "type": "string",
-      "description": "Individual samples",
-      "ontologyMapping": "",
-      "crosstabMapping": "",
-      "cardinality": "",
-      "factors": [
-       {
-        "kind": "Factor",
-        "name": "Sample.name",
-        "type": "string"
-       }
-      ],
-      "factorName": "Sample.name",
-      "isSingle": false,
-      "isRequired": true
-     }
-    ],
-    "filters": [],
-    "steps": [],
-    "defaultFactors": [
-     {
-      "kind": "MappingFactor",
-      "name": "value",
-      "type": "double",
-      "description": "Profile values",
-      "ontologyMapping": "",
-      "crosstabMapping": "",
-      "cardinality": "",
-      "factors": [
-       {
-        "kind": "Factor",
-        "name": "value",
-        "type": "double"
-       }
-      ],
-      "factorName": "value",
-      "isSingle": true,
-      "isRequired": true
-     },
-     {
-      "kind": "MappingFactor",
-      "name": "ID",
-      "type": "string",
-      "description": "Row ID (peptide ID)",
-      "ontologyMapping": "",
-      "crosstabMapping": "",
-      "cardinality": "",
-      "factors": [
-       {
-        "kind": "Factor",
-        "name": "ID",
-        "type": "string"
-       }
-      ],
-      "factorName": "ID",
-      "isSingle": false,
-      "isRequired": true
-     },
-     {
-      "kind": "MappingFactor",
-      "name": "Wait.Time",
-      "type": "string",
-      "description": "Grouping factor or covariate of interest",
-      "ontologyMapping": "",
-      "crosstabMapping": "",
-      "cardinality": "",
-      "factors": [
-       {
-        "kind": "Factor",
-        "name": "Wait.Time",
-        "type": "string"
-       }
-      ],
-      "factorName": "Grouping",
-      "isSingle": false,
-      "isRequired": true
-     },
-     {
-      "kind": "MappingFactor",
-      "name": "Sample.name",
-      "type": "string",
-      "description": "Individual samples",
-      "ontologyMapping": "",
-      "crosstabMapping": "",
-      "cardinality": "",
-      "factors": [
-       {
-        "kind": "Factor",
-        "name": "Sample.name",
-        "type": "string"
-       }
-      ],
-      "factorName": "Sample.name",
-      "isSingle": false,
-      "isRequired": true
-     }
-    ],
-    "defaultFilters": []
-   }
   },
   {
    "kind": "ViewStep",
@@ -2961,14 +2784,198 @@
    "description": "Used to define view in a sub workflow."
   },
   {
+   "kind": "WizardStep",
+   "id": "78163d27-2b36-484b-ae89-223a448c7d53",
+   "groupId": "",
+   "name": "Wizard",
+   "inputs": [
+    {
+     "kind": "InputPort",
+     "id": "78163d27-2b36-484b-ae89-223a448c7d53-i-0",
+     "linkType": "relation",
+     "name": "table"
+    }
+   ],
+   "outputs": [
+    {
+     "kind": "OutputPort",
+     "id": "78163d27-2b36-484b-ae89-223a448c7d53-o-0",
+     "linkType": "relation",
+     "name": "table"
+    }
+   ],
+   "rectangle": {
+    "kind": "Rectangle",
+    "extent": {
+     "kind": "Point",
+     "x": 88.99000000000001,
+     "y": 55.0
+    },
+    "topLeft": {
+     "kind": "Point",
+     "x": 316.505,
+     "y": 143.5
+    }
+   },
+   "state": {
+    "kind": "StepState",
+    "taskId": "",
+    "taskState": {
+     "kind": "InitState"
+    }
+   },
+   "description": "Create a generic workflow.",
+   "model": {
+    "kind": "WizardStepModel",
+    "namespace": "PV",
+    "description": "",
+    "appDesignType": "PV.visualization",
+    "factors": [
+     {
+      "kind": "MappingFactor",
+      "name": "value",
+      "type": "double",
+      "description": "",
+      "ontologyMapping": "",
+      "crosstabMapping": "",
+      "cardinality": "",
+      "factors": [],
+      "factorName": "value",
+      "isSingle": true,
+      "isRequired": true
+     },
+     {
+      "kind": "MappingFactor",
+      "name": "Wait.Time",
+      "type": "string",
+      "description": "",
+      "ontologyMapping": "",
+      "crosstabMapping": "",
+      "cardinality": "",
+      "factors": [],
+      "factorName": "Wait.Time",
+      "isSingle": true,
+      "isRequired": true
+     },
+     {
+      "kind": "MappingFactor",
+      "name": "ID",
+      "type": "string",
+      "description": "",
+      "ontologyMapping": "",
+      "crosstabMapping": "",
+      "cardinality": "",
+      "factors": [],
+      "factorName": "ID",
+      "isSingle": false,
+      "isRequired": true
+     },
+     {
+      "kind": "MappingFactor",
+      "name": "Sample.name",
+      "type": "string",
+      "description": "",
+      "ontologyMapping": "",
+      "crosstabMapping": "",
+      "cardinality": "",
+      "factors": [],
+      "factorName": "Sample.name",
+      "isSingle": false,
+      "isRequired": true
+     }
+    ],
+    "filters": [],
+    "steps": [],
+    "defaultFactors": [
+     {
+      "kind": "MappingFactor",
+      "name": "value",
+      "type": "double",
+      "description": "",
+      "ontologyMapping": "",
+      "crosstabMapping": "",
+      "cardinality": "",
+      "factors": [
+       {
+        "kind": "Factor",
+        "name": "value",
+        "type": "double"
+       }
+      ],
+      "factorName": "value",
+      "isSingle": true,
+      "isRequired": true
+     },
+     {
+      "kind": "MappingFactor",
+      "name": "Wait.Time",
+      "type": "string",
+      "description": "",
+      "ontologyMapping": "",
+      "crosstabMapping": "",
+      "cardinality": "",
+      "factors": [
+       {
+        "kind": "Factor",
+        "name": "Wait.Time",
+        "type": "string"
+       }
+      ],
+      "factorName": "Wait.Time",
+      "isSingle": true,
+      "isRequired": true
+     },
+     {
+      "kind": "MappingFactor",
+      "name": "ID",
+      "type": "string",
+      "description": "",
+      "ontologyMapping": "",
+      "crosstabMapping": "",
+      "cardinality": "",
+      "factors": [
+       {
+        "kind": "Factor",
+        "name": "ID",
+        "type": "string"
+       }
+      ],
+      "factorName": "ID",
+      "isSingle": false,
+      "isRequired": true
+     },
+     {
+      "kind": "MappingFactor",
+      "name": "Sample.name",
+      "type": "string",
+      "description": "",
+      "ontologyMapping": "",
+      "crosstabMapping": "",
+      "cardinality": "",
+      "factors": [
+       {
+        "kind": "Factor",
+        "name": "Sample.name",
+        "type": "string"
+       }
+      ],
+      "factorName": "Sample.name",
+      "isSingle": false,
+      "isRequired": true
+     }
+    ],
+    "defaultFilters": []
+   }
+  },
+  {
    "kind": "InStep",
-   "id": "9dde2a3a-2377-4852-8ba9-8bed0f267cb8",
+   "id": "89af90b9-17a1-41c5-a95b-e0c828cd0199",
    "groupId": "",
    "name": "Input",
    "inputs": [
     {
      "kind": "InputPort",
-     "id": "9dde2a3a-2377-4852-8ba9-8bed0f267cb8-i-0",
+     "id": "89af90b9-17a1-41c5-a95b-e0c828cd0199-i-0",
      "linkType": "any",
      "name": "from"
     }
@@ -2976,7 +2983,7 @@
    "outputs": [
     {
      "kind": "OutputPort",
-     "id": "9dde2a3a-2377-4852-8ba9-8bed0f267cb8-o-0",
+     "id": "89af90b9-17a1-41c5-a95b-e0c828cd0199-o-0",
      "linkType": "any",
      "name": "to"
     }
@@ -2990,8 +2997,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 291.0,
-     "y": 52.0
+     "x": 260.0,
+     "y": 25.0
     }
    },
    "state": {
@@ -3011,8 +3018,8 @@
  ],
  "offset": {
   "kind": "Point",
-  "x": 451.0,
-  "y": 22.0
+  "x": 447.0,
+  "y": 8.0
  },
  "scale": 1.0
 }
