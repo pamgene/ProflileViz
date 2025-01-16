@@ -98,15 +98,9 @@
   },
   {
    "kind": "Link",
-   "id": "c7786132-05ac-4da9-a7e5-5308eba245d4",
-   "inputId": "89af90b9-17a1-41c5-a95b-e0c828cd0199-i-0",
-   "outputId": "ed07ba9b-da27-4807-81b9-ae7c565c7d50-o-0"
-  },
-  {
-   "kind": "Link",
-   "id": "eacf1369-fad2-4e5c-aff4-13de524f3f92",
+   "id": "6df5ec41-c0b6-4ff5-a61d-3167319d180a",
    "inputId": "78163d27-2b36-484b-ae89-223a448c7d53-i-0",
-   "outputId": "89af90b9-17a1-41c5-a95b-e0c828cd0199-o-0"
+   "outputId": "9b053ceb-a215-4391-9b70-533703285ca7-o-0"
   }
  ],
  "steps": [
@@ -401,7 +395,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "fd612838-48e7-4c9f-af1c-58d007a942cc"
+    "id": "f43bdf1b-daf8-4c21-abbd-95afd2636267"
    },
    "parentDataStepId": ""
   },
@@ -740,7 +734,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "ba3d3772-4ba8-4bee-b2d8-06c551fede03"
+    "id": "c8397520-79a0-4a49-bf97-d2b651633757"
    },
    "parentDataStepId": ""
   },
@@ -1071,7 +1065,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "d9d1b7ce-9fe6-462f-8e36-42c6a2adad38"
+    "id": "3e6aa215-c270-494d-b677-3a8392a9db07"
    },
    "parentDataStepId": ""
   },
@@ -1361,7 +1355,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "952c789a-12a6-4df2-9e27-daa774bd6bef"
+    "id": "08778d75-ab87-417d-babf-beb514e8e9c2"
    },
    "parentDataStepId": ""
   },
@@ -1716,7 +1710,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "81e79ddc-aea4-4347-946e-11b12efff561"
+    "id": "1ed298c7-6d92-4f96-ba22-d02ccfa829dd"
    },
    "parentDataStepId": ""
   },
@@ -2026,7 +2020,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "82c625e9-43aa-4ba4-8295-8d8c0d33feae"
+    "id": "2efee360-3214-4f7d-b574-9a33cf8f2039"
    },
    "parentDataStepId": ""
   },
@@ -2402,7 +2396,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "4aa4be6d-96d3-4849-809b-09c4c3a1576c"
+    "id": "b153ffaf-d16d-4285-b2ae-6473e483fd04"
    },
    "parentDataStepId": ""
   },
@@ -2707,7 +2701,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "610c33ce-85b5-4534-b60b-24614739eaf6"
+    "id": "c6f4d0e7-c848-4584-83dc-1e2283bfda67"
    },
    "parentDataStepId": ""
   },
@@ -2839,7 +2833,13 @@
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
-      "factors": [],
+      "factors": [
+       {
+        "kind": "Factor",
+        "name": "value",
+        "type": "double"
+       }
+      ],
       "factorName": "value",
       "isSingle": true,
       "isRequired": true
@@ -2852,7 +2852,13 @@
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
-      "factors": [],
+      "factors": [
+       {
+        "kind": "Factor",
+        "name": "Wait.Time",
+        "type": "string"
+       }
+      ],
       "factorName": "Wait.Time",
       "isSingle": true,
       "isRequired": true
@@ -2865,7 +2871,13 @@
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
-      "factors": [],
+      "factors": [
+       {
+        "kind": "Factor",
+        "name": "ID",
+        "type": "string"
+       }
+      ],
       "factorName": "ID",
       "isSingle": false,
       "isRequired": true
@@ -2878,7 +2890,13 @@
       "ontologyMapping": "",
       "crosstabMapping": "",
       "cardinality": "",
-      "factors": [],
+      "factors": [
+       {
+        "kind": "Factor",
+        "name": "Sample.name",
+        "type": "string"
+       }
+      ],
       "factorName": "Sample.name",
       "isSingle": false,
       "isRequired": true
@@ -2969,13 +2987,13 @@
   },
   {
    "kind": "InStep",
-   "id": "89af90b9-17a1-41c5-a95b-e0c828cd0199",
+   "id": "9b053ceb-a215-4391-9b70-533703285ca7",
    "groupId": "",
    "name": "Input",
    "inputs": [
     {
      "kind": "InputPort",
-     "id": "89af90b9-17a1-41c5-a95b-e0c828cd0199-i-0",
+     "id": "9b053ceb-a215-4391-9b70-533703285ca7-i-0",
      "linkType": "any",
      "name": "from"
     }
@@ -2983,7 +3001,7 @@
    "outputs": [
     {
      "kind": "OutputPort",
-     "id": "89af90b9-17a1-41c5-a95b-e0c828cd0199-o-0",
+     "id": "9b053ceb-a215-4391-9b70-533703285ca7-o-0",
      "linkType": "any",
      "name": "to"
     }
@@ -2997,8 +3015,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 260.0,
-     "y": 25.0
+     "x": 323.505,
+     "y": 26.5
     }
    },
    "state": {
@@ -3018,8 +3036,8 @@
  ],
  "offset": {
   "kind": "Point",
-  "x": 447.0,
-  "y": 8.0
+  "x": 308.0,
+  "y": 42.0
  },
  "scale": 1.0
 }
